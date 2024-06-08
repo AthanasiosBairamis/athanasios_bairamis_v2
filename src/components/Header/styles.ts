@@ -26,7 +26,7 @@ export const Container = styled.header`
       padding: 0.6rem;
       font-family: 'Red Hat Display', sans-serif;
       font-weight: 500;
-      text-transform: uppercase;
+      text-transform: none;
       transition: filter 0.25s;
 
       &.button{

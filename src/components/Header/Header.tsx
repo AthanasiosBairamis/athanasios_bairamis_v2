@@ -2,7 +2,11 @@ import { Container } from './styles'
 import { BrowserRouter as Router } from 'react-router-dom'
 import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useState } from 'react'
-import Resume from '../../assets/Vinayak_Kumar_Singh_Resume.pdf'
+
+import LanguageSelector from '../../LanguageSelector'
+import { useTranslation } from '../../TranslationContext';
+
+
 export function Header() {
   const [isActive, setActive] = useState(false)
   function toggleTheme() {
@@ -12,13 +16,26 @@ export function Header() {
   function closeMenu() {
     setActive(false)
   }
+
+
+
+
+  const { t } = useTranslation();
+
+
+
+
+
+  
   return (
     <Container className="header-fixed">
       <Router>
+        
         <HashLink smooth to="#home" className="logo">
-          <span>{"<Vinayak "}</span>
-          <span>{" Singh/>"}</span>
+          <span>{"<Athanasios "}</span>
+          <span>{" Bairamis />"}</span>
         </HashLink>
+        
         <input
           onChange={toggleTheme}
           className="container_toggle"
@@ -29,20 +46,23 @@ export function Header() {
         <label htmlFor="switch">Toggle</label>
         <nav className={isActive ? 'active' : ''}>
           <NavHashLink smooth to="#home" onClick={closeMenu}>
-            Home
+          {t('menu1')}
           </NavHashLink>
           <NavHashLink smooth to="#about" onClick={closeMenu}>
-            About me
+          {t('menu2')}
           </NavHashLink>
           <NavHashLink smooth to="#project" onClick={closeMenu}>
-            Project
+          {t('menu3')}
           </NavHashLink>
           <NavHashLink smooth to="#contact" onClick={closeMenu}>
-            Contact
+          {t('menu4')}
           </NavHashLink>
-          <a href={Resume} download className="button">
-            Resume
-          </a>
+          
+
+
+          
+          <LanguageSelector />
+
         </nav>
         <div
           aria-expanded={isActive ? 'true' : 'false'}

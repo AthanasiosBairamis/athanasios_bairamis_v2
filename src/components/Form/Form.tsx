@@ -5,8 +5,13 @@ import ReCAPTCHA from 'react-google-recaptcha'
 import { useEffect, useState } from 'react'
 import validator from 'validator'
 
+
+import { useTranslation } from '../../TranslationContext';
+
+
 export function Form() {
-  const [state, handleSubmit] = useForm('xknkpqry')
+  const { t } = useTranslation();
+  const [state, handleSubmit] = useForm('xdoqrqpw')
   const [validEmail, setValidEmail] = useState(false)
   const [isHuman, setIsHuman] = useState(false)
   const [message, setMessage] = useState('')
@@ -43,9 +48,10 @@ export function Form() {
       </ContainerSucces>
     )
   }
+  
   return (
     <Container>
-      <h2>Get in touch using the form</h2>
+      
       <form onSubmit={handleSubmit}>
         <input
           placeholder="Email"
@@ -60,7 +66,7 @@ export function Form() {
         <ValidationError prefix="Email" field="email" errors={state.errors} />
         <textarea
           required
-          placeholder="Send a message to get started."
+          placeholder={t('formcontactplaceholder')}
           id="message"
           name="message"
           onChange={(e) => {
@@ -73,7 +79,7 @@ export function Form() {
           errors={state.errors}
         />
         <ReCAPTCHA
-          sitekey="6Lfj9NYfAAAAAP8wPLtzrsSZeACIcGgwuEIRvbSg"
+          sitekey="6LfJGfQpAAAAAMSO7ZWpOaDIyJ__IE8B7Jhte3eC"
           onChange={(e) => {
             setIsHuman(true)
           }}
@@ -82,7 +88,7 @@ export function Form() {
           type="submit"
           disabled={state.submitting || !validEmail || !message || !isHuman}
         >
-          Submit
+          {t('formcontactsendbutton')}
         </button>
       </form>
       <ToastContainer />

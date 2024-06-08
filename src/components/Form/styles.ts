@@ -17,6 +17,7 @@ export const Container = styled.div`
     gap: 1rem;
     width: 100%;
     input, textarea{
+    text-align:center;
       width: 60rem;
       padding: 1rem 2rem;
       border-radius: 1.6rem;
@@ -32,9 +33,11 @@ export const Container = styled.div`
     }
 
     textarea{
+    
       height: 20rem;
       overflow-y: auto;
       resize: none;
+      
     }
 
     button{
