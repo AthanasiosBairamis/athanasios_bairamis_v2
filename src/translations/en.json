@@ -22,7 +22,7 @@
      "flutter" : "An open-source UI software development kit (SDK) created by Google, used to build natively compiled applications for mobile, web, and desktop from a single codebase",
      "swagger" : "An open-source framework that allows developers to design, document, and consume RESTful web services",
      "formcontact" : "Contact Form",
-     "formcontactdetails1" : "The phone number and e-mail adress",
+     "formcontactdetails1" : "The phone number and e-mail address",
      "formcontactdetails2" : "are not shown for obvious reasons ",
      "formcontactplaceholder" : "Please enter your message here",
      "formcontactsendbutton" : "Send",
