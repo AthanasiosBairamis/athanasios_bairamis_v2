@@ -78,15 +78,10 @@ export function Form() {
           field="message"
           errors={state.errors}
         />
-        <ReCAPTCHA
-          sitekey="6LfJGfQpAAAAAMSO7ZWpOaDIyJ__IE8B7Jhte3eC"
-          onChange={(e) => {
-            setIsHuman(true)
-          }}
-        ></ReCAPTCHA>
+       
         <button
           type="submit"
-          disabled={state.submitting || !validEmail || !message || !isHuman}
+          disabled={state.submitting || !validEmail || !message}
         >
           {t('formcontactsendbutton')}
         </button>
