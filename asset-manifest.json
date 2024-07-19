@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.039bf95e.css",
+    "main.js": "/static/js/main.2fc7d2c1.js",
+    "static/media/Hello.gif": "/static/media/Hello.d93720933c608f6178fb.gif",
+    "static/media/portfolio-image.jpg": "/static/media/portfolio-image.f9e0b6b202bfeaa06b40.jpg",
+    "static/media/flutter.svg": "/static/media/flutter.800a32c620c4463d7b6a41c8d4d4440f.svg",
+    "static/media/kubernetes.svg": "/static/media/kubernetes.10d39be13a75c777900aa60ec53347da.svg",
+    "static/media/grafana.svg": "/static/media/grafana.9b06b87b07fcc2efbea28c3da5c0e3c6.svg",
+    "static/media/docker.svg": "/static/media/docker.feb64b8b7570a9aed712817a47cd8721.svg",
+    "static/media/kafka.svg": "/static/media/kafka.b39e1ec8fda13903ac0f6de186ba8a85.svg",
+    "static/media/illustration.svg": "/static/media/illustration.cf4b7a67f23b684549c4f797c62b527a.svg",
+    "static/media/swagger.svg": "/static/media/swagger.54f4b61e9d44e6dd8f6283065838ac0b.svg",
+    "static/media/globe.svg": "/static/media/globe.270afaf5d38df1e1093c942c398a2ef0.svg",
+    "static/media/node-icon.svg": "/static/media/node-icon.3dc364b8e9beb3561620274aea4f0844.svg",
+    "static/media/react-icon.svg": "/static/media/react-icon.f1484e295933af0e748d6a01b05a8361.svg",
+    "static/media/mongo-db.svg": "/static/media/mongo-db.eb842895e80bd61dd471f2b70345feab.svg",
+    "static/media/telegram.svg": "/static/media/telegram.45bf2371ee6528cc27d66c08f8e43356.svg",
+    "index.html": "/index.html",
+    "static/media/github.svg": "/static/media/github.d344c0fc70ddfb6de253ddc40adcb086.svg",
+    "static/media/express.svg": "/static/media/express.a8f2365539ffd6efaa3528e23acd2cfe.svg",
+    "static/media/external-link.svg": "/static/media/external-link.74ce2401d684101cc83125c6dac8ce9c.svg",
+    "static/media/html-icon.svg": "/static/media/html-icon.ebfc51e406097a90691ab82f1aa72db3.svg",
+    "static/media/css-icon.svg": "/static/media/css-icon.60a6c50d5a470990f63ee17a3bbd9178.svg",
+    "static/media/material-ui.svg": "/static/media/material-ui.734426c25d85d6f02b49b98d28ef9f03.svg",
+    "static/media/skype.svg": "/static/media/skype.28f45b0e7baccddabd06a0504e20df14.svg",
+    "static/media/uikit.svg": "/static/media/uikit.66e2600a598d9d7b8c822eaef3f6352a.svg",
+    "static/media/js-icon.svg": "/static/media/js-icon.ffcf56dc5498f7bbbec802191c740e5f.svg",
+    "static/media/tailwind.svg": "/static/media/tailwind.973c73e85d4daa24b257ba20298716c4.svg",
+    "static/media/facebook.svg": "/static/media/facebook.5e1cb4b86ac3f872dadcbde3ed31cd4b.svg",
+    "main.039bf95e.css.map": "/static/css/main.039bf95e.css.map",
+    "main.2fc7d2c1.js.map": "/static/js/main.2fc7d2c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.039bf95e.css",
+    "static/js/main.2fc7d2c1.js"
+  ]
+}
